@@ -1,0 +1,341 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   background-color: #f2f4f2;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+}
+/* logo style*/
+
+#logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+h2{
+  color: maroon;
+  letter-spacing: 2px;
+  padding: 5px;
+  font-family: papyrus;
+}
+.name{
+  display: flex;
+}
+
+#header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  background-color: #f2f4f2;
+  border-bottom: 2px solid maroon;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+#signup{
+  border: 2px solid #ea1c56;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/*sewing background style*/
+
+#background-image{
+  width: 100%;
+  margin: 0 auto;
+  height: 700px;
+  border-top: 2px solid maroon;
+  z-index: 1;
+  background-image: url(sewbackground.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.welcome{
+  position: relative;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  top: 120px;
+  color: #f2f4f2;
+  font-size: 50px;
+ left: 500px;
+  width: 700px;
+  text-align: center;
+}
+#background-image p{
+  font-size: 25px;
+  position: relative;
+  top: 450px;
+  width: 900px;
+  text-align: center;
+  color: maroon;
+  font-family: papyrus;
+  line-height: 2.0;
+  margin: 5px;
+  font-weight: bold;
+}
+
+#deals p{
+  width: 300px;
+  height: 40px;
+  background-color: #8eba87;
+  position: relative;
+  color: #f2f4f2;
+  font-size: 20px;
+  text-align: center;
+  float: right;
+  top: 350px;
+  font-family: monospace;
+  }
+/* */
+#about{
+  background-color: #f2f4f2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  padding: 50px;
+  width: 90%;
+  margin: 0 auto;
+  scroll-margin-top: 100px;
+}
+
+.side-heading{
+  font-size: 30px;
+  color: maroon;
+  font-family: papyrus;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.para{
+  font-family: Goudy Old Style;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+#alter-image{
+  height: 300px;
+  width: 500px;
+background-image: url(image1.jpg);
+  background-size: cover;
+  box-shadow: 3px 3px 3px gray;
+}
+
+/*Questions and answers*/
+#questions{
+ margin: 20px 50px;
+ font-size: 20px;
+  font-family: papyrus;
+  width: 90%;
+  margin: 0 auto;
+}
+.ques{
+  color: maroon;
+  font-size: 30px;
+  font-weight: bold;
+}
+.ans{
+  color: black;
+  font-family: Goudy Old Style;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+/* services */
+#services{
+  width: 90%;
+  margin: 20px auto;
+  scroll-margin-top: 100px;
+}
+
+.list h3{
+  font-family: papyrus;
+  font-size: 30px;
+  margin: 20px 0;
+  color: maroon;
+
+}
+.list ul li{
+  list-style: square;
+  color: black;
+  font-family: Goudy Old Style;
+  font-size: 20px;
+  margin-left: 50px;
+  line-height: 1.5;
+}
+
+#services-desc{
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  margin:0 auto;
+  scroll-margin-top: 150px;
+}
+
+#images{
+display: grid;
+grid-template-columns: auto auto;
+grid-row-gap: 20px;
+grid-column-gap: 20px;
+}
+.showcase{
+  box-shadow: 3px 3px 3px gray;
+}
+
+/*location*/
+
+#location{
+  scroll-margin-top: 100px;
+  display: flex;
+  width: 90%;
+  margin: 50px auto;
+  justify-content: space-around;
+}
+
+#location address {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+#location p{
+  color: black;
+  font-size: 20px;
+  font-family: garamond;
+  margin-left: 10px;
+}
+#map{
+  margin-top: 20px;
+}
+
+/*price list*/
+#prices{
+  margin: 50px auto;
+  scroll-margin-top: 100px;
+}
+#prices h2{
+  text-align: center;
+}
+#price-list{
+  border: 2px solid maroon;
+  margin: 20px auto;
+  font-family: Goudy Old Style;
+  font-size: 20px;
+  padding: 20px;
+  width: 50%;
+}
+#price-list tr th{
+  font-size: 20px;
+  font-family: papyrus;
+  color: maroon;
+  font-weight: bold;
+}
+#price-list tr td{
+  line-height: 1.5;
+}
+
+/*subscribe*/
+#sign-up{
+  text-align: center;
+}
+#subs-background img{
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  scroll-margin-top: 100px;
+  margin-top: 50px;
+  opacity: 0.6;
+}
+
+#sign-up h2{
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+
+}
+#sign-up p{
+  font-size: 30px;
+  font-family: papyrus;
+  color: maroon;
+  text-align: center;
+
+}
+#email-input{
+text-align: center;
+
+}
+#email-input input{
+  width: 500px;
+  height: 50px;
+  border-radius: 30px;
+  border: 1px solid maroon;
+  background-color: #f2f4f2;
+}
+#sign-up button{
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid maroon;
+  background-color: maroon;
+  color: white;
+  font-size: 20px;
+  font-family: sans serif;
+}
+
+#subs-form h2,p,div,button{
+  margin-top: 30px;
+  justify-content: center;
+}
+#subs-form{
+ position: relative;
+ bottom: 400px;
+}
+#email-input input:hover{
+box-shadow: 0 0 10px maroon;
+}
+
+/*contact us*/
+
+#contactus{
+  height: 100px;
+  text-align: center;
+  background-color: #706667;
+  align-items: center;
+  margin: -320px 0 -200px 0;
+}
+
+#contactus button{
+ height: 40px;
+  width: 150px;
+  font-family: Goudy Old Style;
+  font-size: 20px;
+  border: 1px solid maroon;
+  border-radius: 5px;
+  margin-top: 30px;
+  background-color: maroon;
+  color: white;
+}
+#contactus button:hover{
+  background-color:#c63557;
+}
+#contactus p{
+  display: inline;
+  margin: 20px;
+}
